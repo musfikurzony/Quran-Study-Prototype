@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quran Study — Prototype (Al-Fatiha)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Quran Study — প্রটোটাইপ</h1>
+<p>Surah: Al-Fatiha (1) — প্রোটোটাইপ ডেমো</p>
+</header>
+
+
+<main>
+<section id="surah-selector">
+<label for="surah">সূরা: </label>
+<select id="surah">
+<option value="1">1 — Al-Fatiha</option>
+</select>
+</section>
+
+
+<section id="ayah-list">
+<!-- Ayat will be rendered here -->
+</section>
+
+
+<template id="ayah-template">
+<article class="ayah">
+<h2>Ayah <span class="ayah-number"></span></h2>
+<div class="arabic-line"></div>
+<div class="word-list"></div>
+<div class="ayah-note"></div>
+</article>
+</template>
+</main>
+
+
+<script src="suras.js" defer></script>
+</body>
+</html>
