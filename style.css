@@ -1,0 +1,12 @@
+:root{font-family: "Noto Sans Bengali", "Hind Siliguri", sans-serif}
+body{margin:16px;line-height:1.5;color:#111}
+header h1{font-size:1.4rem;margin:0}
+.ayah{border:1px solid #ddd;padding:12px;border-radius:8px;margin:12px 0}
+.arabic-line{font-family: 'Scheherazade New', 'Noto Naskh Arabic', serif; font-size:1.6rem; text-align:right; direction:rtl; margin-bottom:8px}
+.word-item{padding:6px;border-top:1px dashed #eee}
+.word-token{font-weight:700}
+.word-meta{font-size:0.95rem;color:#333}
+.ayah-note{margin-top:8px;background:#f9f9f9;padding:8px;border-radius:6px}
+
+
+@media (max-width:600px){.arabic-line{font-size:1.2rem}}
